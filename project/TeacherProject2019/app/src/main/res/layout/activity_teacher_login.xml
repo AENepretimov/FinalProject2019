@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Enter password"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:backgroundTint="@android:color/black"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:hint="password"
+        android:textSize="40sp"
+        android:id="@+id/et_pass"
+        android:layout_margin="5sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/btn_teach_log"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        android:text="Login"
+        android:gravity="center"
+        android:layout_margin="5sp"/>
+
+
+
+</LinearLayout>
